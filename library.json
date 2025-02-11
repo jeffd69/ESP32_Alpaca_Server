@@ -1,0 +1,41 @@
+{
+    "name": "ESP32AlpacaDevices",
+    "version": "1.0.0",
+    "description": "ESP32 based ASCOM Alpaca Server",
+    "keywords": "ascom, alpaca, esp32, covercalibrator, observingcondition, switch",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jeffd69/ESP32_Alpaca_Server.git"
+    },
+    "authors": {
+        "name": "jeffd69",
+        "maintainer": true
+    },
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": "espressif32",
+    "headers": [
+        "Dome.h",
+        "SafetyMonitor.h",
+        "Switch.h"
+    ],
+    "dependencies": [
+        {
+            "owner": "mathieucarbou",
+            "name": "ESPAsyncWebServer",
+            "version": "^3.6.0"
+        },
+        {
+            "owner": "bblanchon",
+            "name": "ArduinoJson",
+            "version": "^7.3.0"
+        },
+        {
+            "name": "SLog",
+            "version": "https://github.com/npeter/SLog"
+        }
+    ],
+    "build": {
+        "libCompatMode": "soft"
+    }
+}
