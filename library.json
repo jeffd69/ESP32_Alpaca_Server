@@ -1,14 +1,15 @@
 {
     "name": "ESP32AlpacaDevices",
     "version": "1.0.0",
-    "description": "ESP32 based ASCOM Alpaca Server",
-    "keywords": "ascom, alpaca, esp32, covercalibrator, observingcondition, switch",
+    "description": "ESP32 based ASCOM Alpaca Server for TS Board",
+    "keywords": "ascom, alpaca, esp32, dome, safetymonitor, switch",
     "repository": {
         "type": "git",
         "url": "https://github.com/jeffd69/ESP32_Alpaca_Server.git"
     },
     "authors": {
         "name": "jeffd69",
+        "email": "",
         "maintainer": true
     },
     "license": "MIT",
